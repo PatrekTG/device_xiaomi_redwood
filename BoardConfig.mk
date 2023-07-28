@@ -223,11 +223,9 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
-<<<<<<< HEAD:BoardConfig.mk
-=======
 CONFIG_ACS := true
 CONFIG_IEEE80211AC := true
+CONFIG_IEEE80211AX := true
 
->>>>>>> 41b8fb5... sm8350-common: Enable support for IEEE80211AC:BoardConfigCommon.mk
 # Inherit proprietary blobs
 include vendor/xiaomi/redwood/BoardConfigVendor.mk
