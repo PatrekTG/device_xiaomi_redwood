@@ -590,3 +590,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Gcam prebuilt
+PRODUCT_PACKAGES += \
+GCamGOPrebuilt-V4
