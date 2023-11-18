@@ -24,3 +24,6 @@ persist.vendor.sys.provision.status     u:object_r:vendor_mlipay_prop:s0
 
 # MIUI
 ro.miui.region                      u:object_r:exported_system_prop:s0
+
+# Fastcharge HAL
+persist.vendor.sec.fastchg_enabled              u:object_r:vendor_fastcharge_prop:s0

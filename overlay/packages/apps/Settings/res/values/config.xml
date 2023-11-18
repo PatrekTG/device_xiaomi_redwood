@@ -39,4 +39,7 @@
 
  <!-- Whether to show the Preference for Adaptive connectivity -->
     <bool name="config_show_adaptive_connectivity">true</bool>
+
+    <!-- Whether to enable Lineage Fast Charge Preference -->
+    <bool name="config_lineageFastChargeSupported">true</bool>
 </resources>
