@@ -236,6 +236,5 @@ include vendor/xiaomi/redwood/BoardConfigVendor.mk
 
 # Ignore build errors
 BUILD_BROKEN_DUP_RULES := true
-SELINUX_IGNORE_NEVERALLOWS := true
 RELAX_USES_LIBRARY_CHECK := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
