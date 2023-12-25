@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/redwood/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# MIUI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+
 PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := redwood
 PRODUCT_MANUFACTURER := Xiaomi
@@ -32,3 +35,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := POCO/redwood_global/redwood:13/RKQ1.211001.001/V14.0.4.0.TMSMIXM:user/release-keys
+
