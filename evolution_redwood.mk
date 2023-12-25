@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/redwood/device.mk)
 # Inherit some common EvolutionX stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
+# MIUI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+
 PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := redwood
 PRODUCT_MANUFACTURER := Xiaomi
@@ -43,3 +46,4 @@ TARGET_BOOT_ANIMATION_RES := 1080
 #TARGET_USES_PICO_GAPPS	:= true
 TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
+TARGET_USES_MIUI_CAMERA := true
