@@ -1016,4 +1016,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
 </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mtdservice</name>
+        <version>1.0-3</version>
+        <interface>
+            <name>IMTService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>
