@@ -236,3 +236,7 @@ include vendor/xiaomi/redwood/BoardConfigVendor.mk
 BUILD_BROKEN_DUP_RULES := true
 RELAX_USES_LIBRARY_CHECK := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
+
+# Firmware
+-include vendor/xiaomi/redwood-firmware/config.mk
+
